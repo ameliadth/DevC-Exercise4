@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Review</title>
+
+
+    <style>
+        body {}
+    </style>
+</head>
+
+<body>
+
+        <nav>
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo"><img src="gambar/eat.png" height="50px" alt=""></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                            <li><a href="Form.html" target="_blank">Review</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <div class="container">
+        <br><br><br>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+            action="https://formspree.io/ameliadita.ad@gmail.com" method="post">
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Please leave us a review"
+                    required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <br>
+            <a class="waves-effect waves-light btn"><input type="submit"
+                    value="Submit"></a>
+        </form>
+
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>

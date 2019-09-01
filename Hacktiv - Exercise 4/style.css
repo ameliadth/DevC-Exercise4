@@ -1,0 +1,27 @@
+nav{
+    background-color: #f7e0e7;
+}
+.brand-logo{
+    margin-top: 10px;
+}
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color:#51291E;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+}
+.page-footer{
+    background-color:#E6A537;
+}
+.carousel{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
